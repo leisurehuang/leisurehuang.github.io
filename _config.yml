@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:leisure.huang34@gmail.com
+email: leisure.huang34@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -64,7 +64,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:leisurehuang
+github_user: leisurehuang
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
