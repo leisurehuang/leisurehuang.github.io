@@ -3,7 +3,7 @@ layout: post
 title: "iOS开发书籍推荐"
 date: 2015-12-02 11:19:07 +0800
 comments: true
-categories: 
+categories: iOS技术
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近很多同学都有意学习iOS开发，让我推荐几本比较好的书本，虽然有接近五年的开发经验，但是对于iOS开发方面的书籍，确实读得甚少，但是不乏几本经典之作，下来慢慢给大家说说。</br></br>
