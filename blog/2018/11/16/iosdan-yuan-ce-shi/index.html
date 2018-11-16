@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Scrum 之站会 - Huang Lei’s Blog</title>
+  <title>iOS单元测试 - Huang Lei’s Blog</title>
   <meta name="author" content="Huang Lei">
 
   
-  <meta name="description" content="敏捷宣言强调个体交互重于过程和工具，敏捷原则阐述了面对面的沟通和自组织的团队这些敏捷的核心思想。
-Scrum的团队是一个自组织的团队，团队每天进行每日站会是团队面对面沟通和团队自组织的体现。
-Scrum的理论基础是通过保持过程透明性让参与过程的所有人了解真实状况，然后进行检查和调整， &hellip;">
+  <meta name="description" content="什么是单元测试？ 单元测试（unit testing），是指对软件中的最小可测试单元进行检查和验证。是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作 为什么要做单元测试： 单元测试的成本更低。
+重构的有效保证 原则： 1，Tests One thing Single “Unit” &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ Scrum的理论基础是通过保持过程透明性让参与过程的所有人了
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui/">
+  <link rel="canonical" href="http://leisurehuang.github.io/blog/2018/11/16/iosdan-yuan-ce-shi/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Huang Lei’s Blog" type="application/atom+xml">
@@ -70,7 +69,7 @@ Scrum的理论基础是通过保持过程透明性让参与过程的所有人了
   
   <header>
     
-      <h1 class="entry-title">Scrum 之站会</h1>
+      <h1 class="entry-title">iOS单元测试</h1>
     
     
       <p class="meta">
@@ -79,79 +78,138 @@ Scrum的理论基础是通过保持过程透明性让参与过程的所有人了
 
 
 
-<time class='entry-date' datetime='2018-11-16T14:30:37+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2018</span></span> <span class='time'>2:30 pm</span></time>
+<time class='entry-date' datetime='2018-11-16T16:57:33+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2018</span></span> <span class='time'>4:57 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><ul>
-<li>敏捷宣言强调个体交互重于过程和工具，敏捷原则阐述了面对面的沟通和自组织的团队这些敏捷的核心思想。</li>
-<li>Scrum的团队是一个自组织的团队，团队每天进行每日站会是团队面对面沟通和团队自组织的体现。</li>
-<li>Scrum的理论基础是通过保持过程透明性让参与过程的所有人了解真实状况，然后进行检查和调整，每日站会是Scrum过程进行每天的检查和调整的环节。</li>
+<div class="entry-content"><h3>什么是单元测试？</h3>
+
+<p><strong>单元测试</strong>（unit testing），是指对软件中的最小可测试单元进行检查和验证。是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作</p>
+
+<h3>为什么要做单元测试：</h3>
+
+<ul>
+<li>单元测试的成本更低。</li>
+<li>重构的有效保证</li>
 </ul>
 
 
-<h3>目的：</h3>
-
-<pre><code>1.团队商量决定谁做什么（不做任务指派），为当天排一个计划。
-2.团队沟通状态，了解现状，发现障碍。
-3.团队回顾昨天的工作，做调整，持续改进。
-</code></pre>
-
-<h3>三个问题：</h3>
-
-<pre><code>1.我昨天完成了什么任务？
-2.我今天打算做什么任务？
-3.我遇到了哪些障碍或困难？
-</code></pre>
-
 <h3>原则：</h3>
 
-<pre><code>1，只有猪组可以发言，但是鼓励所有人参与。
-2，整个团队参与，团队之外的人不干扰会议。
-3，主题明确，不发散。
-4，站立开会，保持注意力集中。        
-5，时间固定，站会时间一般不超过15分钟。
-6，不是工作汇报。
+<h4>1，Tests One thing</h4>
+
+<ul>
+<li>Single “Unit” of functionality
+Pass/Fail
+小, 快, 独立</li>
+</ul>
+
+
+<h4>不测什么</h4>
+
+<p>UI, system, framework, library
+File, Network, DB</p>
+
+<h4>测什么？</h4>
+
+<ul>
+<li><p>Business Logic<br/>
+  验证结果是否正确
+  验证边界条件和异常情况</p></li>
+<li><p>API Logic（对外提供的接口，而非网络API）</p></li>
+</ul>
+
+
+<h4>怎么写？</h4>
+
+<ul>
+<li>使用XCTest框架</li>
+<li>使用 <strong>Give When Than</strong> 进行条件，执行，验证。</li>
+</ul>
+
+
+<p>代码：</p>
+
+<pre><code>    class FirstViewController: UIViewController {
+        var nilObject:String?
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+        }
+
+        func actionInt() -&gt;Int{
+     return 11
+        }
+
+        func actionString() -&gt;String{
+            return "hello"
+        }
+
+        func actionBool() -&gt;Bool{
+     return true
+        }
+    }
 </code></pre>
 
-<hr />
+<p> 测试方法：</p>
 
-<h3>扩展：猪与鸡的故事</h3>
+<pre><code>    func testActionIntMethod() {
+        let i = FirstViewController().actionInt()
+        XCTAssertEqual(i, 11)
+        XCTAssert(i == 11, "the int number is 11")
+    }
 
-<p>一天，一头猪和一只鸡在路上散步。
-鸡对猪说：“嗨，我们合伙开一家餐馆怎么样？”
-猪回头看了一下鸡说：“好主意，那你准备给餐馆起什么名字呢？”
-鸡想了想说：“叫‘火腿和鸡蛋’怎么样？”
-“那可不行”，猪说：“我把自己全搭进去了，而你只是参与而已。”</p>
+    func testActionStringMethod() {
+        let str = FirstViewController().actionString()
+        XCTAssertEqual(str, "hello")
+        XCTAssert(str == "hello", "the string is hello")
+    }
 
-<h4>猪组的成员</h4>
+    func testActionBoolMethod() {
+        let bol = FirstViewController().actionBool()
+        XCTAssertEqual(bol, true)
+    }
 
-<p>猪是在Scrum过程中全身投入专案的各种人物，他们在专案中承担实际工作。他们有些像上边那个笑话里的猪，要把自己身上的肉贡献出来。</p>
+    func testFirstViewControllerInit() {
+        let vc = FirstViewController()
+    XCTAssertNotNil(vc)
+    }
 
-<p><strong>产品负责人</strong><br/>
-产品负责人代表了客户的意愿。这保证了Scrum团队在做从业务角度来说正确的事情。产品负责人编写用户故事，排出优先级，并放入产品订单。</p>
+    func testFirstViewControllerObjectInit() { 
+        let nilObject = FirstViewController().nilObject
+        XCTAssertNil(nilObject)
+    }
+</code></pre>
 
-<p><strong>Scrum主管（或促进者）</strong><br/>
-Scrum主管促进 Scrum过程，他的主要工作是去除那些影响团队交付冲刺目标的障碍。Scrum主管并非团队的领导（因为团队是自我组织的），而是一个负责屏蔽外界对开发团队的干扰的角色。Scrum主管确保Scrum过程被按照初衷使用。Scrum主管是规则的执行者。</p>
+<h3>从MVC -> MVVM</h3>
 
-<p><strong>开发团队</strong><br/>
-负责交付产品的团队。一个团队通常由5至9名具有跨职能技能的人（设计者，开发者等）组成，承担实际的开发工作。</p>
+<ul>
+<li>MVC结构中，将所有的业务和处理逻辑堆积在ViewController中，而进行单元测试书写时，界面的显示效果，网络处理的结果，都成了测试输入的条件。</li>
+<li>而MVVM中，界面刷新，服务调用，对象模型，都被抽离到单独的模块，ViewModel中，仅保留单纯的逻辑代码，通过Mock对对象模型等的模拟，可以很清爽的进行测试的书写和验证。</li>
+</ul>
 
-<h4>鸡组的成员</h4>
 
-<p>鸡并不是实际Scrum过程的一部分，但是必须考虑他们。敏捷方法的一个重要方面是使得用户和利益相关者参与到过程中的实践。参与每一个冲刺的评审和计划，并提供反馈对于这些人来说是非常重要的。</p>
+<h3>为什么使用Quick&amp; Nimble</h3>
 
-<p><strong>用户</strong><br/>
-软件是为了人而开发的。有人说，“假如森林里有一棵树倒下了，但没有被人听到，那么它算是发出了声音吗？”同样地，人们可以说，“假如软件没有被使用，那么它算是被开发出来了么？”</p>
+<ul>
+<li><strong>BDD</strong>行为驱动开发是一种敏捷软件开发的技术</li>
+<li>在书写性和可读性上更好，容易进行测试结果的验证查看</li>
+</ul>
 
-<p><strong>利益相关者（客户，提供商）</strong><br/>
-影响项目成功的人，但只直接参与冲刺评审过程。</p>
 
-<p><strong>经理</strong><br/>
-为产品开发团体搭建环境的人。</p>
+<p>具体请看<a href="https://github.com/Quick/Nimble">官方介绍</a></p>
+
+<p>Demo:<a href="https://github.com/leisurehuang/UnitTestForSwift">地址</a></p>
+
+<h3>测试结果的可视化</h3>
+
+<p>使用命令行：</p>
+
+<pre><code>xcodebuild test -scheme UnitTestForSwift -destination name="iPhone 6" -configuration Debug | tee xcodebuild.log | xcpretty -t -r html --output ./report.html
+</code></pre>
 </div>
 
 
@@ -167,12 +225,12 @@ Scrum主管促进 Scrum过程，他的主要工作是去除那些影响团队交
 
 
 
-<time class='entry-date' datetime='2018-11-16T14:30:37+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2018</span></span> <span class='time'>2:30 pm</span></time>
+<time class='entry-date' datetime='2018-11-16T16:57:33+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2018</span></span> <span class='time'>4:57 pm</span></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/min-jie/'>敏捷</a>
+    <a class='category' href='/blog/categories/ios/'>ios</a>
   
 </span>
 
@@ -181,7 +239,7 @@ Scrum主管促进 Scrum过程，他的主要工作是去除那些影响团队交
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui/" data-via="" data-counturl="http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://leisurehuang.github.io/blog/2018/11/16/iosdan-yuan-ce-shi/" data-via="" data-counturl="http://leisurehuang.github.io/blog/2018/11/16/iosdan-yuan-ce-shi/" >Tweet</a>
   
   
   
@@ -190,10 +248,8 @@ Scrum主管促进 Scrum过程，他的主要工作是去除那些影响团队交
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/12/02/ioskai-fa-shu-ji/" title="Previous Post: iOS开发书籍推荐">&laquo; iOS开发书籍推荐</a>
+        <a class="basic-alignment left" href="/blog/2018/11/16/scrum-zhi-zhan-hui/" title="Previous Post: Scrum 之站会">&laquo; Scrum 之站会</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2018/11/16/iosdan-yuan-ce-shi/" title="Next Post: iOS单元测试">iOS单元测试 &raquo;</a>
       
     </p>
   </footer>
@@ -288,8 +344,8 @@ Scrum主管促进 Scrum过程，他的主要工作是去除那些影响团队交
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui/';
-        var disqus_url = 'http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui/';
+        var disqus_identifier = 'http://leisurehuang.github.io/blog/2018/11/16/iosdan-yuan-ce-shi/';
+        var disqus_url = 'http://leisurehuang.github.io/blog/2018/11/16/iosdan-yuan-ce-shi/';
         var disqus_script = 'embed.js';
       
     (function () {
