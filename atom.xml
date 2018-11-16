@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Huang Lei’s Blog]]></title>
+  <link href="http://leisurehuang.github.io/atom.xml" rel="self"/>
+  <link href="http://leisurehuang.github.io/"/>
+  <updated>2018-11-16T16:20:30+08:00</updated>
+  <id>http://leisurehuang.github.io/</id>
+  <author>
+    <name><![CDATA[Huang Lei]]></name>
+    <email><![CDATA[leisure.huang34@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scrum 之站会]]></title>
+    <link href="http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui/"/>
+    <updated>2018-11-16T14:30:37+08:00</updated>
+    <id>http://leisurehuang.github.io/blog/2018/11/16/scrum-zhi-zhan-hui</id>
+    <content type="html"><![CDATA[<ul>
+<li>敏捷宣言强调个体交互重于过程和工具，敏捷原则阐述了面对面的沟通和自组织的团队这些敏捷的核心思想。</li>
+<li>Scrum的团队是一个自组织的团队，团队每天进行每日站会是团队面对面沟通和团队自组织的体现。</li>
+<li>Scrum的理论基础是通过保持过程透明性让参与过程的所有人了解真实状况，然后进行检查和调整，每日站会是Scrum过程进行每天的检查和调整的环节。</li>
+</ul>
+
+
+<h3>目的：</h3>
+
+<pre><code>1.团队商量决定谁做什么（不做任务指派），为当天排一个计划。
+2.团队沟通状态，了解现状，发现障碍。
+3.团队回顾昨天的工作，做调整，持续改进。
+</code></pre>
+
+<h3>三个问题：</h3>
+
+<pre><code>1.我昨天完成了什么任务？
+2.我今天打算做什么任务？
+3.我遇到了哪些障碍或困难？
+</code></pre>
+
+<h3>原则：</h3>
+
+<pre><code>1，只有猪组可以发言，但是鼓励所有人参与。
+2，整个团队参与，团队之外的人不干扰会议。
+3，主题明确，不发散。
+4，站立开会，保持注意力集中。        
+5，时间固定，站会时间一般不超过15分钟。
+6，不是工作汇报。
+</code></pre>
+
+<hr />
+
+<h3>扩展：猪与鸡的故事</h3>
+
+<p>一天，一头猪和一只鸡在路上散步。
+鸡对猪说：“嗨，我们合伙开一家餐馆怎么样？”
+猪回头看了一下鸡说：“好主意，那你准备给餐馆起什么名字呢？”
+鸡想了想说：“叫‘火腿和鸡蛋’怎么样？”
+“那可不行”，猪说：“我把自己全搭进去了，而你只是参与而已。”</p>
+
+<h4>猪组的成员</h4>
+
+<p>猪是在Scrum过程中全身投入专案的各种人物，他们在专案中承担实际工作。他们有些像上边那个笑话里的猪，要把自己身上的肉贡献出来。</p>
+
+<p><strong>产品负责人</strong><br/>
+产品负责人代表了客户的意愿。这保证了Scrum团队在做从业务角度来说正确的事情。产品负责人编写用户故事，排出优先级，并放入产品订单。</p>
+
+<p><strong>Scrum主管（或促进者）</strong><br/>
+Scrum主管促进 Scrum过程，他的主要工作是去除那些影响团队交付冲刺目标的障碍。Scrum主管并非团队的领导（因为团队是自我组织的），而是一个负责屏蔽外界对开发团队的干扰的角色。Scrum主管确保Scrum过程被按照初衷使用。Scrum主管是规则的执行者。</p>
+
+<p><strong>开发团队</strong><br/>
+负责交付产品的团队。一个团队通常由5至9名具有跨职能技能的人（设计者，开发者等）组成，承担实际的开发工作。</p>
+
+<h4>鸡组的成员</h4>
+
+<p>鸡并不是实际Scrum过程的一部分，但是必须考虑他们。敏捷方法的一个重要方面是使得用户和利益相关者参与到过程中的实践。参与每一个冲刺的评审和计划，并提供反馈对于这些人来说是非常重要的。</p>
+
+<p><strong>用户</strong><br/>
+软件是为了人而开发的。有人说，“假如森林里有一棵树倒下了，但没有被人听到，那么它算是发出了声音吗？”同样地，人们可以说，“假如软件没有被使用，那么它算是被开发出来了么？”</p>
+
+<p><strong>利益相关者（客户，提供商）</strong><br/>
+影响项目成功的人，但只直接参与冲刺评审过程。</p>
+
+<p><strong>经理</strong><br/>
+为产品开发团体搭建环境的人。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[从《火星救援》看美国式社会公正]]></title>
+    <link href="http://leisurehuang.github.io/blog/2015/12/05/bringhimhome/"/>
+    <updated>2015-12-05T19:44:04+08:00</updated>
+    <id>http://leisurehuang.github.io/blog/2015/12/05/bringhimhome</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iOS开发书籍推荐]]></title>
+    <link href="http://leisurehuang.github.io/blog/2015/12/02/ioskai-fa-shu-ji/"/>
+    <updated>2015-12-02T11:19:07+08:00</updated>
+    <id>http://leisurehuang.github.io/blog/2015/12/02/ioskai-fa-shu-ji</id>
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近很多同学都有意学习iOS开发，让我推荐几本比较好的书本，虽然有接近五年的开发经验，但是对于iOS开发方面的书籍，确实读得甚少，但是不乏几本经典之作，下来慢慢给大家说说。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先从语言说起，iOS开发最初的开发语言是Objective-C（已经发展到了2.0版本），是一门类似C、C++门派的面向对象语言(可与C、C++混合编程)。其中括号的方法调用形式([target action])，动态语言特性，单一继承等，都是其鲜明特点。这里推荐一本《Objective-C基础教程》，是Objective-C语言学习入门的经典教程。需要掌握基础语法结构、FoundationKit框架中得基础数据类型、内存管理机制（对象生命周期，引用计数，ARC机制），深入理解和熟练使用category、protocol、delegate，掌握文件IO，理解和使用 KVO、KVC等。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当然，除了使用Objective-C语言之外，我们还有一门新起之秀语言选择——Swift，语法内容混合OC, JS, Python，语法简单，使用方便，并可与OC混合使用。Swift的优势不言而喻，有许多新特性而且更加适合于函数式编程开发，但是目前仍然处于急速发展期，有可能上个版本可以完全编译运行的code，更新到了新的版本后因语法的变更而编译错误。对于Swift语言，这里推荐官方的原作，在iBooks就可以免费看到，如果看英文版本比较吃力，那就看看开源小组翻译的中文版本吧，链接在<a href="https://github.com/numbbbbb/the-swift-programming-language-in-chinese">这里</a>。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说完了语言和语法的学习，下边就要进行iOS开发学习了，iOS开发的入门教程《iPhone开发基础教程》，主要讲解了iOS平台特性、开发的框架UIKit、MVC模式在iOS开发中的实践、各种基础控件的使用，数据持久化和硬件特性等。不过《iPhone开发基础教程》这本书已经有些跟不上平台的发展了，最近又入手了另一本《精通iOS开发（第七版）》，这本书与基础教程类似，但是却使用了OC和Swift两种语言进行实例讲解，并且加入了Storyboard等新内容，更加适合各位进入iOS开发圈的同学。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当你把这本书看完后，应该可以进行独立的iOS编程开发了，为了提高编程质量，这里推荐一本比较好的书《Effective Objective C 2.0:编写高质量iOS与OS X代码的52个有效方法》，此书以52个实例生动形象的描述了如何写出高质量的code，用豆瓣网友的话来总结“这是一本讲Objective-C编码技巧的书，不仅讲了要怎么做，还解释了为什么要这样做”。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同样，一个好的程序员，怎么能少了测试的检验呢？这里推荐一本iOS测试入门书籍《iOS测试指南》，该书描述了单元测试、集成测试、持续集成、自动化测试和测试策略等，是iOS平台测试实践的一本好的总结。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当然，如果你是一位对技术有热情追求者，《Objective-C编程之道:iOS设计模式解析》这本书也是必读的经典之作，正如内容简介所说：“解析iOS设计模式的开山之作” “优化Objective-C编程实践的必修宝典” “由此迈入移动开发高手行列”，想要成为绝顶高手的你，怎么能错过。</br></br></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;书籍推荐，到这里也就结束了，文字不多，但都是本人亲身实践和阅读后的推荐之作，仅供大家参考阅读，当然，也很希望能够听到不同意见，欢迎大家随时与我交流。</p>
+]]></content>
+  </entry>
+  
+</feed>
