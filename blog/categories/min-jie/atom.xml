@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 敏捷 | Huang Lei’s Blog]]></title>
   <link href="http://leisurehuang.github.io/blog/categories/min-jie/atom.xml" rel="self"/>
   <link href="http://leisurehuang.github.io/"/>
-  <updated>2018-11-16T17:21:09+08:00</updated>
+  <updated>2018-11-27T11:31:00+08:00</updated>
   <id>http://leisurehuang.github.io/</id>
   <author>
     <name><![CDATA[Huang Lei]]></name>
@@ -12,6 +12,70 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scrum之Retro]]></title>
+    <link href="http://leisurehuang.github.io/blog/2018/11/27/scrumzhi-retro/"/>
+    <updated>2018-11-27T11:29:13+08:00</updated>
+    <id>http://leisurehuang.github.io/blog/2018/11/27/scrumzhi-retro</id>
+    <content type="html"><![CDATA[<h3>目标</h3>
+
+<ul>
+<li>Retro 重点关注的是如何使团队更好的协调工作。</li>
+<li>帮助大家定期的改善流程，处理问题和发现障碍。</li>
+<li>使用好的架构和正确的工具，帮助团队获得预期的结果。</li>
+</ul>
+
+
+<h3>一个Retro会议</h3>
+
+<p>用1到两个词语描述自己的感觉。<br/>
+用心情曲线图表示自己在这个迭代的心情。</p>
+
+<p>收集数据->头脑风暴讨论->寻找解决问题方案->制定可行性方案</p>
+
+<h3>Retro的流程：</h3>
+
+<h4>1 预设会议基调</h4>
+
+<p>简短介绍，邀请发言（注意时间控制），介绍会议议程，营造讨论话题的氛围（阐明工作约定和价值观：人人参与，手机静音等， 有助于促成富有成效的交谈和互动）</p>
+
+<h4>2 收集数据</h4>
+
+<p><strong>从硬数据开始：</strong><br/>
+- 事件：会议，决策，团队人员变动，里程碑，庆祝活动，新技术采用等对团队有意义的事件。
+- 统计结果（Metrics）：燃尽图，速度，软件缺陷统计，完成的故事卡，工作量数据等。
+- feature或者已经完成的故事卡等。</p>
+
+<h4>3 激发灵感</h4>
+
+<ul>
+<li>为什么：一旦出现问题，人们容易一下子就跳到解决方案上，最初想到的解决方案有可能是正确的，但大多数情况下通常是错误的。</li>
+<li>这个阶段：考虑其他可能性，寻找因果关系，并进行分析思考。</li>
+</ul>
+
+
+<h4>4 决定做什么</h4>
+
+<ul>
+<li>根据上一步得到的潜在的试验和改进的清单，排列优先级，然后计划怎么做。</li>
+<li>最后做任务的签字承诺，不仅仅是团队的事情，也是个人的责任。</li>
+<li>避免没有行动的回顾会议。</li>
+</ul>
+
+
+<h4>5 总结收尾</h4>
+
+<ul>
+<li>整理结论，生成文档和打印成册张贴。</li>
+<li>检视当前回顾会议，下次有哪些改进</li>
+<li>感谢每个人的努力工作并收尾。</li>
+</ul>
+
+
+<h3>6，Retro的20种方式：<a href="http://retrospectivewiki.org/index.php?title=Retrospective_Plans">地址</a></h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Scrum 之站会]]></title>
